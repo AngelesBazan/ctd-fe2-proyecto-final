@@ -11,6 +11,7 @@ import {
   TituloModal,
 } from "./styled";
 
+// Se aplicó el Principio de responsabilidad única, extrayendo lógica del componente en distintos archivos con el fin de dividir responsabilidades en los mismos.
 
 const Modal = ({ showModal, cerrar, suscribir }: PropsModal) => {
   const esPremium = showModal?.esPremium;
